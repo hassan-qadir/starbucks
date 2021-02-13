@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Starbucks</title>
+  </head>
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+   <img src="images/logostar.png" alt="image" class="img-fluid mx-1" style="width: 4.5rem;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item ">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="menu.html">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="new.html">What'New</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+     <h1 class="display-2 text-center color">Menu</h1>
+     <hr class="w-50 mx-auto">
+   <div class="container">
+       <div class="col-lg-12 col-md-12-col-12">
+         <div class="row bg-light p-3">
+           <div class="col-lg-6 col-md-6 col-12">
+             <img src="images/401.png" alt="image" class="img-fluid mx-3" style="width: 16rem">
+           </div>
+           <div class="col-lg-6 col-md-6 col-12 card-title p-2">
+            <h5>Starbucks coffee cup</h5>
+            <p> Latte Espresso</p>
+            Small <input type="radio" name="gender" class="text-dark green">
+            Medium <input type="radio" name="gender" class="text-dark">
+            Large <input type="radio" name="gender" class="text-dark">
+           <nav aria-label="Page navigation example">
+  <ul class="pagination mt-2">
+    <li class="page-item">
+      <button class="page-link" onclick="decreaseno('textbox','itemprice')"><i class="fa fa-minus text-dark" aria-hidden="true"></i></button>
+    <li class="page-item"><input type="text" name="name" class="page-link text-dark" value="0" id="textbox"></li>
+     <button class="page-link" onclick="increaseno('textbox','itemprice')"><i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+  
+  </ul>
+</nav>
+    <p><i class="fa fa-trash-o" aria-hidden="true"></i>  Remove Item</p>
+    <p><i class="fa fa-heart" aria-hidden="true"></i>  Move to wish list </p>
+</div>
+<div class="price_money d-flex justify-content-end">
+  <h5>Total Cost</h5>
+  <h4 class="mx-3">$<span id="itemprice">0.00</span></h4>
+  <a href="order.html" class="bg-success text-white p-2 decoration mx-1">ORDER</a>
+
+</div>
+     </div>
+</div>
+
+
+   </div>
+ 
+           <div class="container">
+       <div class="col-lg-12 col-md-12-col-12">
+         <div class="row bg-whhite p-3">
+           <div class="col-lg-6 col-md-6 col-12">
+             <img src="images/402.png" alt="image" class="img-fluid mx-5" style="width: 13.5rem">
+           </div>
+           <div class="col-lg-6 col-md-6 col-12 card-title p-2">
+            <h5>Starbucks juice </h5>
+            <p> Mint and Lemon</p>
+            Small <input type="radio" name="gender" class="text-dark">
+            Medium <input type="radio" name="gender" class="text-dark">
+            Large <input type="radio" name="gender" class="text-dark">
+           <nav aria-label="Page navigation example">
+  <ul class="pagination mt-2">
+    <li class="page-item">
+      <button class="page-link" onclick="decreaseno('textbox1','itemprice1')"><i class="fa fa-minus text-dark" aria-hidden="true"></i></button>
+    <li class="page-item"><input type="text" name="name" class="page-link text-dark" value="0" id="textbox1"></li>
+     <button class="page-link" onclick="increaseno('textbox1','itemprice1')"><i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+  
+  </ul>
+</nav>
+    <p><i class="fa fa-trash-o" aria-hidden="true"></i>  Remove Item</p>
+    <p><i class="fa fa-heart" aria-hidden="true"></i>  Move to wish list </p>
+</div>
+<div class="price_money d-flex justify-content-end">
+  <h5>Total Cost</h5>
+  <h4 class="mx-3">$<span id="itemprice1">0.00</span></h4>
+  <a href="order.html" class="bg-success text-white p-2  decoration mx-1">ORDER</a>
+
+</div>
+       </div>
+     </div>
+
+
+
+   </div>
+        <div class="container">
+       <div class="col-lg-12 col-md-12-col-12">
+         <div class="row bg-light p-3">
+           <div class="col-lg-6 col-md-6 col-12">
+             <img src="images/404.png" alt="image" class="img-fluid mx-3" style="width: 15.5rem">
+           </div>
+           <div class="col-lg-6 col-md-6 col-12 card-title p-2">
+            <h5>Starbucks Ice coffee </h5>
+            <p> Cappicino with cream</p>
+            Small <input type="radio" name="gender" class="text-dark">
+            Medium <input type="radio" name="gender" class="text-dark">
+            Large <input type="radio" name="gender" class="text-dark">
+           <nav aria-label="Page navigation example">
+  <ul class="pagination mt-2">
+    <li class="page-item">
+      <button class="page-link" onclick="decreaseno('textbox2','itemprice2')"><i class="fa fa-minus text-dark" aria-hidden="true"></i></button>
+    <li class="page-item"><input type="text" name="name" class="page-link text-dark" value="0" id="textbox2"></li>
+     <button class="page-link" onclick="increaseno('textbox2','itemprice2')"><i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+  
+  </ul>
+</nav>
+    <p><i class="fa fa-trash-o" aria-hidden="true"></i>  Remove Item</p>
+    <p><i class="fa fa-heart" aria-hidden="true"></i>  Move to wish list </p>
+</div>
+<div class="price_money d-flex justify-content-end">
+  <h5>Total Cost</h5>
+  <h4 class="mx-3">$<span id="itemprice2">0.00</span></h4>
+  <a href="order.html" class="bg-success text-white p-2 decoration mx-1">ORDER</a>
+
+</div>
+       </div>
+     </div>
+
+
+
+   </div>
+           <div class="container">
+       <div class="col-lg-12 col-md-12-col-12">
+         <div class="row bg-whiet p-3">
+           <div class="col-lg-6 col-md-6 col-12">
+             <img src="images/403.png" alt="image" class="img-fluid mx-3" style="width: 16rem">
+           </div>
+           <div class="col-lg-6 col-md-6 col-12 card-title p-2">
+            <h5>Starbucks juice </h5>
+            <p> Strabbery with ice</p>
+            Small <input type="radio" name="gender" class="text-dark">
+            Medium <input type="radio" name="gender" class="text-dark">
+            Large <input type="radio" name="gender" class="text-dark">
+           <nav aria-label="Page navigation example">
+  <ul class="pagination p-2">
+    <li class="page-item">
+      <button class="page-link" onclick="decreaseno('textbox3','itemprice3')"><i class="fa fa-minus text-dark" aria-hidden="true"></i></button>
+    <li class="page-item"><input type="text" name="name" class="page-link text-dark" value="0" id="textbox3"></li>
+     <button class="page-link" onclick="increaseno('textbox3','itemprice3')"><i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+  
+  </ul>
+</nav>
+    <p><i class="fa fa-trash-o" aria-hidden="true"></i>  Remove Item</p>
+    <p><i class="fa fa-heart" aria-hidden="true"></i>  Move to wish list </p>
+</div>
+<div class="price_money d-flex justify-content-end">
+  <h5>Total Cost</h5>
+  <h4 class="mx-3">$<span id="itemprice3">0.00</span></h4>
+  <a href="order.html" class="bg-success text-white p-2 decoration mx-1">ORDER</a>
+
+</div>
+       </div>
+     </div>
+
+
+
+   </div>
+              <div class="container">
+       <div class="col-lg-12 col-md-12-col-12">
+         <div class="row bg-light p-3">
+           <div class="col-lg-6 col-md-6 col-12">
+             <img src="images/front.png" alt="image" class="img-fluid mx-5" style="width: 10.3rem">
+           </div>
+           <div class="col-lg-6 col-md-6 col-12 card-title p-2">
+            <h5>Matcha Chocolate Coffee </h5>
+            <p> Frappuccino chocolate cake</p>
+            Small <input type="radio" name="gender" class="text-dark">
+            Medium <input type="radio" name="gender" class="text-dark">
+            Large <input type="radio" name="gender" class="text-dark">
+           <nav aria-label="Page navigation example">
+  <ul class="pagination p-2">
+    <li class="page-item">
+      <button class="page-link" onclick="decreaseno('textbox4','itemprice4')"><i class="fa fa-minus text-dark" aria-hidden="true"></i></button>
+    <li class="page-item"><input type="text" name="name" class="page-link text-dark" value="0" id="textbox4"></li>
+     <button class="page-link" onclick="increaseno('textbox4','itemprice4')"><i class="fa fa-plus text-dark" aria-hidden="true"></i></button>
+  
+  </ul>
+</nav>
+    <p><i class="fa fa-trash-o" aria-hidden="true"></i>  Remove Item</p>
+    <p><i class="fa fa-heart" aria-hidden="true"></i>  Move to wish list </p>
+</div>
+<div class="price_money d-flex justify-content-end">
+  <h5>Total cost</h5>
+  <h4 class="mx-3">$<span id="itemprice4">0.00</span></h4>
+  <a href="order.html" class="bg-success text-white p-2 decoration mx-1">ORDER</a>
+
+</div>
+       </div>
+     </div>
+
+
+
+   </div>
+
+
+ <footer >
+          <div class="container ">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-12 bg-white">    
+          <a href="https://www.facebook.com/Starbucks/"><img src="images/facebook.png" alt="image" class="img-fluid my-3 " style="width: 2.6rem;"></a>
+          <a href="https://twitter.com/starbucks/"><img src="images/121.png" alt="image" class="img-fluid my-3 " style="width: 2.4rem;"></a>
+          <a href="https://www.instagram.com/accounts/login/"><img src="images/131.png" alt="image" class="img-fluid my-3 " style="width: 2.1rem;"></div></a>
+        </div>
+      </div>
+        <div class="container-fluid bgcolor mt-5">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-12">
+        <h5 class="text-white bold mt-2">Online Community</h5>
+        <ul class="text-white list ">
+       <a href="https://twitter.com/starbucks/"><li> Twitter</li></a>
+        <a href="https://www.facebook.com/Starbucks/"><li>Facebook</li></a>
+         <a href="https://www.youtube.com/starbucks"><li>YouTube</li></a>
+        </ul>
+       </div>
+         <div class="col-lg-3 col-md-3 col-12">
+        <h5 class="text-white bold mt-2">About us</h5>
+        <ul class="text-white list">
+      <a href="https://www.starbucks.com/about-us/company-information"><li>Our Heritage</li></a>
+     <a href="https://www.starbucks.com/about-us/company-information"><li>Our Company</li></a>
+     <a href="https://investor.starbucks.com/phoenix.zhtml?c=99518&p=irol-irhome"><li>Investor Relations</li></a>
+     <a href="https://stories.starbucks.com/"><li>Newsroom</li></a>
+        </ul>
+       </div>
+          <div class="col-lg-3 col-md-3 col-12">
+        <h5 class="text-white bold  mt-2">For business</h5>
+        <ul class="text-white list">
+      <a href="index.html"><li>Office Coffee</li></a>
+     <a href="https://www.starbucks.com/"><li>Starbucks Coffee International</li></a>
+     <a href="https://www.starbucks.com/"><li>Foodservice</li></a>
+     <a href="contact.html"><li>Licensed Stores</li></a>
+     <a href="https://www.starbuckscardb2b.com/"><li>Starbucks Card Corporate Sales</li></a>
+        </ul>
+       </div>
+          <hr class="w-75 mx-auto text-white">
+        <p class="text-white text-center">© 2021 Starbucks Coffee Company.</p>
+        </div>
+        </footer>
+
+
+    <script type="text/javascript">
+      
+      function decreaseno(incdec,itemprice){
+       var itemval = document.getElementById(incdec);
+       var itemprice = document.getElementById(itemprice);
+       
+       if (itemval.value <= 0 ){
+            itemval.value = 0;
+
+       }else{
+          itemval.value = parseInt(itemval.value)-1;
+          itemval.style.background = 'white';
+          itemval.style.color = '#000';
+          itemprice.innerHTML = parseInt(itemprice.innerHTML) -24;
+          
+          
+        
+
+       }
+     }
+         function increaseno(incdec,itemprice){
+       var itemval = document.getElementById(incdec);
+       var itemprice = document.getElementById(itemprice);
+       if (itemval.value >= 7){
+            itemval.value = 7;
+            itemval.style.background = 'red';
+             alert("max 7 cup order at a time")
+            itemval.style.color = 'white';
+
+       }else{
+          itemval.value = parseInt(itemval.value)+1;
+          itemprice.innerHTML = parseInt(itemprice.innerHTML) +24;
+          
+          
+       }
+     }
+     
+
+
+    </script>
+       
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
